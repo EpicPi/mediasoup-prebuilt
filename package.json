@@ -1,0 +1,40 @@
+{
+  "name": "media-soup-prebuilt",
+  "version": "3.5.9",
+  "description": "Prebuilt version of mediasoup on ubuntu",
+  "contributors": [
+    "Iñaki Baz Castillo <ibc@aliax.net> (https://inakibaz.me)",
+    "José Luis Millán <jmillan@aliax.net> (https://github.com/jmillan)"
+  ],
+  "homepage": "https://mediasoup.org",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/versatica/mediasoup.git"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/mediasoup"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "webrtc",
+    "ortc",
+    "sfu",
+    "nodejs"
+  ],
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "dependencies": {
+    "@types/debug": "^4.1.5",
+    "awaitqueue": "^2.1.1",
+    "debug": "^4.1.1",
+    "h264-profile-level-id": "^1.0.1",
+    "netstring": "^0.3.0",
+    "random-number": "^0.0.9",
+    "supports-color": "^7.1.0",
+    "uuid": "^7.0.3"
+  }
+}
