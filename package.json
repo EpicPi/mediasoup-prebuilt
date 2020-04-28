@@ -1,5 +1,5 @@
 {
-  "name": "media-soup-prebuilt",
+  "name": "mediasoup-prebuilt",
   "version": "3.5.9",
   "description": "Prebuilt version of mediasoup on ubuntu",
   "contributors": [
